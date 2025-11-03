@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Storefront — Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="topbar container">
+      <a class="logo" href="#">
+        <span class="logo__mark" aria-hidden="true">☺</span>
+        <span class="logo__text">ShopEase</span>
+      </a>
+      <div class="deliver" aria-label="Deliver to">
+        <div>
+          <div class="line1">Deliver to</div>
+          <div class="line2">India</div>
+        </div>
+      </div>
+      <form class="search" role="search">
+        <select><option>All</option></select>
+        <input type="search" placeholder="Search ShopEase.in" />
+        <button type="submit">🔍</button>
+      </form>
+      <nav class="acct">
+        <a href="#"><span class="line1">Hello, sign in</span><span class="line2">Account & Lists</span></a>
+        <a href="#"><span class="line1">Returns</span><span class="line2">& Orders</span></a>
+        <a class="cart" href="#"><span class="cart__icon">🛒</span><span class="cart__count">0</span></a>
+      </nav>
+    </div>
+    <div class="subnav">
+      <div class="container subnav__wrap">
+        <button class="menu-btn">☰ All</button>
+        <a href="#">Today's Deals</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Registry</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container hero__wrap">
+      <div class="hero__banner">
+        <div class="hero__text">
+          <h1>Great prices. Fast delivery.</h1>
+          <p>Shop top picks across Electronics, Fashion, and Home.</p>
+          <a class="btn" href="#grid">Shop now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="tiles container">
+    <article class="tile"><h2>Up to 60% off | Electronics</h2><div class="tile__img">📱</div><a class="more" href="#">See more</a></article>
+    <article class="tile"><h2>Fashion Deals</h2><div class="tile__img">👗</div><a class="more" href="#">Explore</a></article>
+    <article class="tile"><h2>Home & Kitchen</h2><div class="tile__img">🍳</div><a class="more" href="#">Discover</a></article>
+    <article class="tile"><h2>Books & Stationery</h2><div class="tile__img">📚</div><a class="more" href="#">Browse</a></article>
+  </section>
+  <main id="grid" class="container grid">
+    <article class="card"><div class="badge">Deal of the Day</div><div class="card__img">🎧</div><h3>Wireless Headphones</h3><div class="rating">★★★★★</div><div class="price">₹2,999 <span class="mrp">M.R.P: ₹3,999</span></div><button class="add">Add to Cart</button></article>
+    <article class="card"><div class="badge">Bestseller</div><div class="card__img">🥤</div><h3>Stainless Water Bottle</h3><div class="rating">★★★★☆</div><div class="price">₹699 <span class="mrp">M.R.P: ₹999</span></div><button class="add">Add to Cart</button></article>
+    <article class="card"><div class="card__img">💻</div><h3>Laptop Pro 14</h3><div class="rating">★★★★☆</div><div class="price">₹69,990</div><button class="add">Add to Cart</button></article>
+  </main>
+  <footer class="footer"><div class="container"><a href="#">Back to top</a><p>© 2025 ShopEase Demo. All rights reserved.</p></div></footer>
+</body>
+</html>
