@@ -10,6 +10,7 @@ This is a **responsive and modern portfolio website** designed to showcase my sk
 - **Contact Form** – Users can send emails directly via the "Contact Me" section.
 - **Typewriter Effect** – Dynamic typing animation using TypeIt.js.
 - **Social Media Links** – Easily accessible LinkedIn, GitHub, Twitter, and Instagram icons.
+- 
 
 ## 🛠️ Tech Stack
 
@@ -54,4 +55,5 @@ Feel free to reach out!\
 
 🔗 **Star this repo** if you found it useful! ⭐\
 Happy coding! 🚀
+
 
