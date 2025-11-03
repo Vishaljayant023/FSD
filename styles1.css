@@ -1,5 +1,6 @@
 body{margin:0;font-family:Arial,sans-serif;background:#eaeded;color:#111}
 .container{max-width:1200px;margin:auto;padding:0 15px}
+
 .header{background:#131921;color:#fff}
 .topbar{display:flex;align-items:center;gap:12px;padding:10px 14px}
 .logo{display:flex;align-items:center;gap:8px;text-decoration:none;color:#fff}
